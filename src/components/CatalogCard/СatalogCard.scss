@@ -1,0 +1,19 @@
+.catalog__сard {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    height: 278px;
+    background: #f2f3f5;
+
+    &__img {
+        width: 267px;
+        height: 176px;
+    }
+
+    &__img img {
+        height: 100%;
+        width: 100px;
+        object-fit: contain;
+        object-position: center;
+    }
+}
